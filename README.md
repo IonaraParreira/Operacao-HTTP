@@ -13,6 +13,8 @@ Quando o acesso é feito por um navegador comum (usuário real), o servidor vali
 
 <img width="952" height="1042" alt="image" src="https://github.com/user-attachments/assets/228b072a-afc2-4de2-8201-88856070110f" />
 
+<img width="1917" height="1066" alt="image" src="https://github.com/user-attachments/assets/0f8af93d-5d4c-4623-986f-817b1e666cbf" />
+
 
 ---
 
