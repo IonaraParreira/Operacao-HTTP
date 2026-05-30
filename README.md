@@ -28,16 +28,20 @@ Ao alterarmos o `User-Agent` nas condições de rede do navegador para simular a
 
 <img width="1919" height="1069" alt="Captura de tela 2026-05-29 200236" src="https://github.com/user-attachments/assets/f621df1f-b5e6-4665-ab59-399d796e412e" />
 
-<h1>🕵️‍♂️O teste do curl (Explicação Técnica)</h1>
+<h1>🕵️‍♂️O teste do Curl</h1>
 "Para testar o escudo de segurança sem precisar sair do navegador, usei o painel DevTools (Condições de Rede) para alterar o cabeçalho User-Agent.
 
 O que é o curl?
 O curl é uma ferramenta de linha de comando muito usada por robôs, scripts automatizados e invasores para baixar dados de sites rapidamente sem precisar abrir um navegador visual. Por ser muito usada para raspagem maliciosa de dados (scraping).
 
 O que aconteceu na simulação?
-Ao desmarcar a predefinição do navegador e digitar curl, forcei o Google Chrome a 'mentir' para o servidor. O navegador enviou a requisição HTTP dizendo: 'Olá, eu não sou um usuário comum, eu sou o robô curl'.
+Ao desmarcar a predefinição do navegador e digitar curl, forcei o Google Chrome a 'mentir' para o servidor. O navegador enviou a requisição HTTP dizendo: 'Olá, eu não sou um usuário comum, eu sou o robô curl'.<br>
+<br>
+<img width="1745" height="404" alt="image" src="https://github.com/user-attachments/assets/1e4708d2-6107-4704-aedf-5e1eac8cde41" />
+
+
 
 A reação:
-O middleware no Node.js leu essa informação em tempo real e identificou a palavra-chave bloqueada. Em vez de entregar os dados confidenciais (Status 200), o sistema cortou a comunicação na hora e retornou o Status 403 Forbidden (Acesso Proibido), comprovando a eficácia do filtro de segurança."
+O middleware no Node.js leu essa informação em tempo real e identificou a palavra-chave bloqueada. Em vez de entregar os dados confidenciais (Status 200 ou 304), o sistema cortou a comunicação na hora e retornou o Status 403 Forbidden (Acesso Proibido), comprovando a eficácia do filtro de segurança."
 
->"Colocar o disfarce de curl fez a diferença porque provou que a API não aceita conexões cegas: ela inspeciona a identidade de quem bate na porta e barra ferramentas automatizadas na hora!"
+>"Colocar o disfarce de curl fez a diferença porque provou que a API não aceita qualquer conexão,ela inspeciona a identidade e barra ferramentas automatizadas na hora!"
