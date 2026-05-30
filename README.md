@@ -42,6 +42,6 @@ Ao desmarcar a predefinição do navegador e digitar curl, forcei o Google Chrom
 
 
 A reação:
-O middleware no Node.js leu essa informação em tempo real e identificou a palavra-chave bloqueada. Em vez de entregar os dados confidenciais (Status 200 ou 304), o sistema cortou a comunicação na hora e retornou o Status 403 Forbidden (Acesso Proibido), comprovando a eficácia do filtro de segurança."
+O middleware no Node.js leu essa informação em tempo real e identificou a palavra-chave bloqueada. Em vez de entregar os dados confidenciais (Status 200 ou 304 - significa: "O acesso foi totalmente permitido, e como o conteúdo não mudou desde a última vez, o navegador abriu super rápido usando a memória cache dele". É o selo oficial de Acesso Concedido.), o sistema cortou a comunicação na hora e retornou o Status 403 Forbidden (Acesso Proibido), comprovando a eficácia do filtro de segurança."
 
 >"Colocar o disfarce de curl fez a diferença porque provou que a API não aceita qualquer conexão,ela inspeciona a identidade e barra ferramentas automatizadas na hora!"
