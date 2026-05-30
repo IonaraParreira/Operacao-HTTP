@@ -9,9 +9,10 @@ Este projeto simula um sistema de segurança back-end desenvolvido em **Node.js*
 Para validar o escudo de proteção da API, realizamos testes simulados inspecionando as requisições de rede no DevTools do navegador:
 
 ### 🟢 1. Requisição Legítima (Acesso Permitido)
-Quando o acesso é feito por um navegador comum (usuário real), o servidor valida os cabeçalhos padrões e concede acesso completo com o status **200 OK**.
+Quando o acesso é feito por um navegador comum (usuário real), o servidor valida os cabeçalhos padrões e concede acesso completo com o status **304 OK**.
 
-![Evidência de Acesso Permitido](sucesso.png)
+<img width="952" height="1042" alt="image" src="https://github.com/user-attachments/assets/228b072a-afc2-4de2-8201-88856070110f" />
+
 
 ---
 
