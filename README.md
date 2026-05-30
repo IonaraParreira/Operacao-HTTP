@@ -20,3 +20,6 @@ Ao alterarmos o `User-Agent` nas condições de rede do navegador para simular a
 
 <img width="1919" height="1070" alt="Captura de tela 2026-05-29 200256" src="https://github.com/user-attachments/assets/b725c48f-e64d-402f-9888-9a31ddfffdd1" />
 
+<img width="1918" height="1073" alt="Captura de tela 2026-05-29 200019" src="https://github.com/user-attachments/assets/88abd7e0-179a-4efe-9d09-4db2a303c573" />
+
+<img width="1919" height="1069" alt="Captura de tela 2026-05-29 200236" src="https://github.com/user-attachments/assets/f621df1f-b5e6-4665-ab59-399d796e412e" />
