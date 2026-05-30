@@ -18,4 +18,5 @@ Quando o acesso é feito por um navegador comum (usuário real), o servidor vali
 ### 🔴 2. Requisição por Robô/Invasor (Acesso Bloqueado)
 Ao alterarmos o `User-Agent` nas condições de rede do navegador para simular a ferramenta **`curl`**, o nosso código interceptou a identidade na hora. O servidor barrou o acesso imediatamente e disparou o status de segurança **403 Forbidden**.
 
-![Evidência de Bloqueio 403](bloqueio.png)
+<img width="1919" height="1070" alt="Captura de tela 2026-05-29 200256" src="https://github.com/user-attachments/assets/b725c48f-e64d-402f-9888-9a31ddfffdd1" />
+
